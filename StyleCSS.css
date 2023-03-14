@@ -39,7 +39,7 @@ nav > a:hover
 {
     color: rgba(0, 0, 0, 0.6);
     scale: 1.2;
-    cursor: url('../Media/paw-solid.svg'), auto;
+    cursor: url('Image/paw-solid.svg'), auto;
 }
 #contact
 {
@@ -105,6 +105,8 @@ nav > a:hover
     left: 0;
     width: 100%;
     height: 20px;
+    background-repeat: repeat-x;
+    background-size: 40% 100%;
 }
 
 /* About Us */
@@ -147,7 +149,7 @@ nav > a:hover
 {
     width: 100%;
     height: 580px;
-    background-image: url('/Media/coffee-bean-small.jpg');
+    background-image: url('Image/coffee-bean-small.jpg');
     background-size: 100% 580px;
     position: relative;
     display: flex;
@@ -160,7 +162,7 @@ nav > a:hover
     top: -2px;
     width: 100%;
     height: 20px;
-    background-image: url('../Media/top-overlay.png');
+    background-image: url('Image/top-overlay.png');
     background-repeat: repeat-x;
     background-size: 40% 100%;
 }
@@ -172,7 +174,7 @@ nav > a:hover
     bottom: -2px;
     width: 100%;
     height: 20px;
-    background-image: url('../Media/bottom-overlay.png');
+    background-image: url('Image/bottom-overlay.png');
     background-repeat: repeat-x;
     background-size: 40% 100%;
 }
@@ -248,4 +250,122 @@ nav > a:hover
 #book-table > div.book-table2 > div > button:hover
 {
     background-color: rgb(229, 150, 90, 0.8);
+}
+
+/* Promotion */
+#promo-sec
+{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    color: rgba(35, 18, 6, 0.927);
+}
+#promo-sec > img
+{
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    border-radius: 50px;
+}
+#promo-sec > h2
+{
+    font-size: 35pt;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+
+}
+#promo-sec > h3
+{
+    font-size: 28pt;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 50%;
+}
+#promo-sec > div
+{
+    margin-left: 50px;
+    position: absolute;
+    top: 210px;
+    width: 50%;
+}
+#promo-sec > label
+{
+    margin-left: 50px;
+    position: absolute;
+    bottom: 75px;
+    font-size: 12pt;
+    background-color: rgba(89, 45, 15, 0.664);
+    width: fit-content;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#promo-sec > label:hover
+{
+    background-color: rgba(39, 19, 6, 0.856);
+    cursor: pointer;
+}
+
+/* Footer */
+footer
+{
+    background-color: rgba(54, 32, 16, 0.918);
+    color: beige;
+    width: 100%;
+    height: 330px;
+    position: relative;
+    line-height: 2;
+}
+footer > ul
+{
+    list-style: none;
+}
+footer > label
+{
+    font-size: 16pt;
+    position: absolute;
+    top: 30px;
+    font-weight: bold;
+}
+#foot-aboutus
+{
+    left: 30px;
+}
+footer > div
+{
+    position: absolute;
+    left: 30px;
+    top: 90px;
+    width: 30%;
+    line-height: 2;
+}
+
+#foot-location
+{
+    left: 480px;
+}
+footer > .location
+{
+    position: absolute;
+    left: 440px;
+    top: 70px;
+    width: 30%;
+}
+
+#foot-contact
+{
+    right: 200px;
+}
+footer > .contact
+{
+    position: absolute;
+    left: 860px;
+    top: 70px;
+    width: 30%;
 }
